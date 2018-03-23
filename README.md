@@ -11,6 +11,8 @@
 ## Example
 
 ``` bash
+# git clone https://github.com/OXOYO/X-Particles-Vue-Demo.git
+
 # install dependencies
 npm install
 
