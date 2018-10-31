@@ -30,7 +30,6 @@
   }
   .btn {
     display: inline-block;
-    margin-bottom: 0;
     font-weight: 400;
     text-align: center;
     vertical-align: middle;
@@ -48,6 +47,7 @@
     color: #495060;
     background-color: #f7f7f7;
     border-color: #dddee1;
+    margin: 0 5px;
   }
   .btn-ghost {
     color: #fff;
@@ -75,7 +75,7 @@
         alt="Fork me on GitHub"
       >
     </a>
-    <img src="./assets/logo.png">
+    <img src="./assets/logo.png" style="width: 200px; height: 200px;">
     <h1 style="color: #fff;">X-Particles-Vue</h1>
     <div :class="{'btn': true, 'btn-ghost': true, 'btn-active': 'default' === currentConfig}" @click="switchConfig('default')">default</div>
     <div :class="{'btn': true, 'btn-ghost': true, 'btn-active': 'nasa' === currentConfig}" @click="switchConfig('nasa')">nasa</div>
